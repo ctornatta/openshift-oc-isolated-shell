@@ -6,5 +6,5 @@ mkdir $KUBE_HOME
 # playign around with symlinking to the history. Need to test further.
 #bash --init-file <(echo "export OLD_HOME=$HOME;cd $KUBE_HOME;ln -s $OLD_HOME/.history .history;export HOME=$KUBE_HOME;export PS1=oc\ chroot] ")
 
-bash --init-file <(echo "export OLD_HOME=$HOME;cd $KUBE_HOME;export HOME=$KUBE_HOME;export PS1=oc\ chroot\ ]")
+bash --init-file <(echo "export OLD_HOME=$HOME;cd $KUBE_HOME;export HOME=$KUBE_HOME;export PS1=oc\ root\ ]")
 rm -rf $KUBE_HOME
