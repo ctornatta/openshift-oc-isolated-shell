@@ -15,4 +15,4 @@ export KUBE_FILE=~/.kube-`LC_CTYPE=C tr -dc a-z0-9 < /dev/urandom | head -c 4 | 
 alias oc='oc --config $KUBE_FILE'
 ```
 
-The cleanup of old '~/.kube-*' can be improved by checking the token against the API.
+The cleanup of old `~/.kube-*` can be improved by checking the token against the API.
